@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f4c989b79cca4542bf04412ef0c17eba" Name="Diagram1">
+        <EntityTypeShape EntityType="QLCF_NTPModel.Account" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLCF_NTPModel.Bill" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLCF_NTPModel.BillInfo" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLCF_NTPModel.Category" Width="1.5" PointX="4.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLCF_NTPModel.Menu" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLCF_NTPModel.Table" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="QLCF_NTPModel.FK__Bill__UserName__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="QLCF_NTPModel.FK__Bill__TableId__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="QLCF_NTPModel.FK__BillInfo__Count__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="QLCF_NTPModel.FK__BillInfo__MenuId__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="QLCF_NTPModel.FK__Menu__Image__1BFD2C07" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
